@@ -18,3 +18,20 @@ This is a step by step guide on how to create a virtual machine usine Azure.
 8)Click "Review+create", once validation has passed click "create" and wait for your Virtual Machine to be created.
 
 9)Done, you now have a Virtual Machine.
+
+# Remote Access using RDP
+For Windows
+
+1)Go to your portal home at portal.azure.com then click on "Virtual Machine" Icon.
+
+2)Click on the virtual machine you just created and this will present you with and overview of information that has to do with your instance.
+
+3)From here you will need the Public IP address of your virtual machine. Once you find it in the overview copy it down as you will need it to login via RDP.
+
+4)Go to your window search bar in the start menu and search "Remote Desktop Connection" click it and open it.
+
+5)Click on the "show options" button on the bottom left corner and then enter the public IP of your virtual machine into the computer field. You will also enter the username of the virtual machine you created. Then press "Connect."<img width="327" alt="Capture2" src="https://user-images.githubusercontent.com/51884636/225798815-327a8df0-95b2-455c-a3a2-cf0e1d09d3dc.PNG">
+
+6)You will get a warning message saying this isn't safe, you can just bypass this message by clicking "Yes" as it will be safe. Once done, your vitual machine will open after some loading and waiting. Once prompted you can enter your username and password credentials and you will be welcomed by your virtual machine.
+
+7)Done
