@@ -35,3 +35,15 @@ For Windows
 6)You will get a warning message saying this isn't safe, you can just bypass this message by clicking "Yes" as it will be safe. Once done, your vitual machine will open after some loading and waiting. Once prompted you can enter your username and password credentials and you will be welcomed by your virtual machine.
 
 7)Done
+
+For Mac
+
+1)Download "RD Client" from the Apple store and yes it is free if your wondering.
+
+2)Once installed open the app and click on the + sign and select "Add PC". Enter the public IP of your VM under user account. Type in your VM's username and password and then click "save". 
+
+3)Once saved, click on the PC you just added and now your Virtual Machine will load on your Mac after some time waiting.
+
+4)Done
+
+FYI Remember to stop your VM and delete your VM and resource group within Azure so you don't run up a bill on a instance you forgot you had running. This can be a costly mistake if you are not careful.
