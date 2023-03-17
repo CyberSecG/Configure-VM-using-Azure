@@ -1,5 +1,5 @@
 # Configure-VM-using-Azure
-This is a step by step guide on how to create a virtual machine usine Azure.
+This is a step by step guide on how to create a virtual machine using Azure.
 # Creating a Virtual Machine
 1)Go to https://azure.microsoft.com
 
