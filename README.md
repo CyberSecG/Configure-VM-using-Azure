@@ -1,10 +1,20 @@
 # Configure-VM-using-Azure
 This is a step by step guide on how to create a virtual machine usine Azure.
-# Creating Virtual Machine
+# Creating a Virtual Machine
 1)Go to https://azure.microsoft.com
 
 2)Sign Up for a free 30 day subscription and create an account.
 
 3)Once you have created your account and signed up for your free 30 Day subscripion you will go to your portal which you can access at anytime by going to portal.azure.com and logging in with your credentials.
 
-4)Once in portal got to "resource groups" and click "create resource group".
+4)Once in portal click on "resource groups" and then click "create".
+
+5)Type in the the name of your resource group and select your desired region. Then click "Review+create" and once validation has passed click "create" once again. <img width="626" alt="Capture" src="https://user-images.githubusercontent.com/51884636/225787831-8fac1b77-d65d-4c76-87a2-ee29fe7c8542.PNG">
+
+6)We will now head back to our home portal at portal.azure.com and we will click on the "Virtual Machine" Icon. Once in virtual machine we will click "create" and again click "Azure Virtual Machine."
+
+7)Now you will name your Virtual Machine, select your region which should be the same region you chose for your resource group. For "Image" you will select your desired operating system (In this example I will choose the Windows 10 Pro, version 21H2 image. For "Size" you will select your desired cpu specs for your Virtual Machine.". For "Administrator account" you will create a username and password that is easy to remember as this is for a lab. You will have to check the box under licensing to advance. I would also like to mention for "Select inbound ports" have "RDP (3389)" selected as we will use this later to connect via RDP.<img width="619" alt="Capture1" src="https://user-images.githubusercontent.com/51884636/225793801-78ba921b-4dd1-4ffb-b99c-832bc4dce1be.PNG">
+
+8)Click "Review+create", once validation has passed click "create" and wait for your Virtual Machine to be created.
+
+9)Done, you now have a Virtual Machine.
